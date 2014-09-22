@@ -1,0 +1,54 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+# Install homebrew cask
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+# install hardware drivers
+brew cask install ax88179
+brew cask install logitech-control-center
+
+# install lots of apps
+brew cask install onepassword
+brew cask install basictex
+brew cask install bettertouchtool
+brew cask install dropbox
+brew cask install java
+brew cask install eclipse-ide
+brew cask install eclipse-java
+brew cask install eclipse-platform
+brew cask install fantastical
+brew cask install flux
+brew cask install github
+brew cask install google-chrome
+brew cask install karabiner
+brew cask install latexian
+brew cask install mou
+brew cask install rdio
+brew cask install sublime-text-3
+brew cask install skype
+brew cask install the-unarchiver
+brew cask install transmission
+brew cask install twitter
+brew cask install vlc
+
+# quicklook plugins
+cask install qlcolorcode
+cask install qlstephen
+cask install qlmarkdown
+cask install quicklook-json
+cask install qlprettypatch
+cask install quicklook-csv
+cask install betterzipql
+cask install webp-quicklook
+cask install suspicious-package 
+
+# manually install from App Store:
+# Xcode
+# Keynote
+# Sunrise
+# mailtab pro
+
+brew cask linkapps
+brew cleanup
