@@ -37,21 +37,17 @@ if ! installed brew; then
 fi
 unset installed;
 
-# Install command-line utils and apps
-brew bundle ./Brewfile
-brew bundle ./Caskfile
-
 # oh-my-zsh
 if ! [[ -d ~/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 fi
 
-chsh -s `which zsh`
 
 
 # Fonts
 mkdir -p $HOME/Library/Fonts
 cp ./fonts/* $HOME/Library/Fonts
+./getcrunk.sh
 
 # OSX defaults
 # should always be run last as it will shut down Terminal
