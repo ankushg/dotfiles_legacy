@@ -48,14 +48,6 @@ fi
 
 chsh -s `which zsh`
 
-echo 'Enter new hostname of the machine (e.g. macbook-ankushg)'
-  read hostname
-  echo "Setting new hostname to $hostname..."
-  scutil --set HostName "$hostname"
-  compname=$(sudo scutil --get HostName | tr '-' '.')
-  echo "Setting computer name to $compname"
-  scutil --set ComputerName "$compname"
-  sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$compname"
 
 # Fonts
 mkdir -p $HOME/Library/Fonts
