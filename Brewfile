@@ -22,13 +22,12 @@ install ant
 install node
 install tree
 install sqlite
-install appledoc
 install automake
-intall autoconf
+install autoconf
 install curl
 install htop
 
 # Remove outdated versions from the cellar
 cleanup
 
-brew linkapps
+linkapps
