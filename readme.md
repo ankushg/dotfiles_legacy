@@ -1,20 +1,25 @@
 My Dotfiles
 ===
 
-Note: Has not actually ever been run
-
 ## Instructions
 1. git clone
 2. cd dotfiles
 3. ./bootstrap.sh
 
-##Remaining Tasks
+##Remaining Tasks After Running
 * Install App Store apps:
     * Xcode
     * Keynote
     * Sunrise
     * mailtab pro
+    * twitter
+    * set up github certs
+* Intall MS Office
 * Set up iCloud and Internet Accounts
 * Set up Dropbox selective sync
 * Install MIT Certificates
 * Install all software updates from App Store
+# install safari extensions
+
+##TODO
+* autoinstall safari extensions to ~/Library/Safari/Extensions/
