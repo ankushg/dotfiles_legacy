@@ -16,7 +16,7 @@ function installed() {
 }
 
 function doIt() {
-	rsync -avh --no-perms ./home ~;
+	rsync -avh --no-perms home/ ~;
 }
 
 # Copy dotfiles to home
