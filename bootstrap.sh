@@ -44,9 +44,6 @@ fi
 
 
 
-# Fonts
-mkdir -p $HOME/Library/Fonts
-cp ./fonts/* $HOME/Library/Fonts
 ./getcrunk.sh
 
 # OSX defaults
