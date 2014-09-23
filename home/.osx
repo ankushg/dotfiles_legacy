@@ -587,23 +587,13 @@ defaults write com.google.Chrome ExtensionInstallSources -array "https://gist.gi
 
 # Disable the all too sensitive backswipe
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
-defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
-
 
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
 
 # Install Sublime Text settings
-#cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
-
-
-###############################################################################
-# Karabiner                                                                   #
-###############################################################################
-
-# Install Karabiner settings
-cp -r init/org.pqrs.Karabiner.plist ~/Library/Preferences/org.pqrs.Karabiner.plist 2> /dev/null
+# cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 
 ###############################################################################
