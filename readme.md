@@ -19,7 +19,3 @@ My Dotfiles
 * Set up Dropbox selective sync
 * Install MIT Certificates
 * Install all software updates from App Store
-# install safari extensions
-
-##TODO
-* autoinstall safari extensions to ~/Library/Safari/Extensions/
