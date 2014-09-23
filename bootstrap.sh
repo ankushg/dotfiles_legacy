@@ -42,8 +42,10 @@ if ! [[ -d ~/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 fi
 
+# copy over custom zsh aliases, exports, etc
+rsync -avh --no-perms zsh/ $ZSH_CUSTOM/;
 
-
+#install apps, command-line utils 
 ./getcrunk.sh
 
 # OSX defaults
