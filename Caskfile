@@ -10,15 +10,15 @@ cask install ax88179
 cask install logitech-control-center
 
 # install lots of apps
-cask install onepassword
+cask install onepassword-beta
 cask install bettertouchtool
-cask install dropbox
+cask install dropbox-experimental
 cask install java
 cask install eclipse-java
 cask install fantastical
-cask install flux
+cask install flux-beta
 cask install github
-cask install google-chrome
+cask install google-chrome-dev
 cask install karabiner
 cask install mou
 cask install rdio
