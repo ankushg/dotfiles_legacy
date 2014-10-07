@@ -16,7 +16,7 @@ function installed() {
 }
 
 function doIt() {
-	rsync -avh --no-perms home/ ~;
+	rsync -avhO --no-perms home/ ~;
 }
 
 # Copy dotfiles to home
@@ -43,7 +43,7 @@ if ! [[ -d ~/.oh-my-zsh ]]; then
 fi
 
 # copy over custom zsh aliases, exports, etc
-rsync -avh --no-perms zsh/ $ZSH_CUSTOM/;
+rsync -avhO --no-perms zsh/ $ZSH_CUSTOM/;
 
 #install apps, command-line utils 
 ./getcrunk.sh
