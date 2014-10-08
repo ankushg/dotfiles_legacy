@@ -13,8 +13,6 @@ cask install logitech-control-center
 cask install onepassword-beta
 cask install bettertouchtool
 cask install dropbox-experimental
-cask install java
-cask install eclipse-java
 cask install fantastical
 cask install flux-beta
 cask install github
@@ -38,6 +36,14 @@ cask install quicklook-csv
 cask install betterzipql
 cask install webp-quicklook
 cask install suspicious-package 
+
+#IDEs
+cask install java
+cask install java6
+cask install eclipse-java
+cask install intellij-idea-ultimate-eap
+cask install pycharm-eap
+cask install webstorm-eap
 
 # latex
 cask install basictex
