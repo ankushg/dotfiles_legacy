@@ -25,6 +25,7 @@ cask install skype
 cask install the-unarchiver
 cask install transmission
 cask install vlc
+cask install google-hangouts
 
 # quicklook plugins
 cask install qlcolorcode
@@ -44,6 +45,7 @@ cask install eclipse-java
 cask install intellij-idea-ultimate-eap
 cask install pycharm-eap
 cask install webstorm-eap
+cask install arduino-beta
 
 # latex
 cask install basictex
