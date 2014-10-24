@@ -8,6 +8,7 @@ tap caskroom/versions
 # install hardware drivers
 cask install ax88179
 cask install logitech-control-center
+cask install android-file-transfer
 
 # install lots of apps
 cask install onepassword-beta
@@ -26,6 +27,8 @@ cask install the-unarchiver
 cask install transmission
 cask install vlc
 cask install google-hangouts
+cask install flash
+cask install xquartz
 
 # quicklook plugins
 cask install qlcolorcode
