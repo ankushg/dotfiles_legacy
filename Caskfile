@@ -1,64 +1,60 @@
 # Install native apps
-# Usage: `brew bundle Caskfile`
-
-# Install homebrew cask
-install caskroom/cask/brew-cask
-tap caskroom/versions
+# Usage: `brew cask install $(cat ./Caskfile |grep -v "#")`
 
 # install hardware-related casks
-# cask install ax88179
-cask install logitech-control-center
-cask install android-file-transfer
-cask install karabiner
-cask install seil
-cask install continuity-activation-tool
+# ax88179
+logitech-control-center
+android-file-transfer
+karabiner
+seil
+continuity-activation-tool
 
 # install lots of apps
-cask install 1password-beta
-cask install bettertouchtool
-cask install dropbox-experimental
-cask install fantastical
-cask install flux-beta
-cask install github
-cask install google-chrome-dev
-cask install mou
-cask install sublime-text3
-cask install skype
-cask install the-unarchiver
-cask install transmission
-cask install vlc
-cask install google-hangouts
-cask install flash
-cask install xquartz
-cask install ifunbox
-cask install battle-net
+1password-beta
+bettertouchtool
+dropbox-experimental
+fantastical
+flux-beta
+github
+google-chrome-dev
+mou
+sublime-text3
+skype
+the-unarchiver
+transmission
+vlc
+google-hangouts
+flash
+xquartz
+ifunbox
+battle-net
 
 
 # quicklook plugins
-cask install qlcolorcode
-cask install qlstephen
-cask install qlmarkdown
-cask install quicklook-json
-cask install qlprettypatch
-cask install quicklook-csv
-cask install betterzipql
-cask install webp-quicklook
-cask install suspicious-package 
+qlcolorcode
+qlstephen
+qlmarkdown
+quicklook-json
+qlprettypatch
+quicklook-csv
+betterzipql
+webp-quicklook
+suspicious-package 
 
 #IDEs
-cask install java
-cask install java7
-cask install eclipse-java
-cask install intellij-idea-ultimate-eap
-cask install virtualbox
-cask install android-studio
-cask install genymotion
+java
+java7
+eclipse-java
+intellij-idea-ultimate-eap
+virtualbox
+android-studio
+genymotion
 
 # latex
-cask install basictex
-cask install latexian
-cask install bibtex
-cask install tex-live-utility
+basictex
+latexian
+bibtex
+tex-live-utility
 
 # manually install
 # Xcode
@@ -68,7 +64,3 @@ cask install tex-live-utility
 # Office
 # MIT Kerberos Extras
 # CertAID
-
-
-cleanup
-cask cleanup
