@@ -8,6 +8,7 @@ android-file-transfer
 karabiner
 seil
 continuity-activation-tool
+intel-power-gadget
 
 # install lots of apps
 1password-beta
@@ -38,14 +39,14 @@ quicklook-json
 qlprettypatch
 quicklook-csv
 betterzipql
-webp-quicklook
+#webp-quicklook
 suspicious-package 
 
 #IDEs
 java
 java7
 eclipse-java
-intellij-idea-ultimate-eap
+#intellij-idea-ultimate-eap
 virtualbox
 android-studio
 genymotion
@@ -53,7 +54,7 @@ genymotion
 # latex
 basictex
 latexian
-bibtex
+bibdesk
 tex-live-utility
 
 # manually install

@@ -19,7 +19,7 @@ brew tap caskroom/versions
 brew cask install $(cat ./Caskfile |grep -v "#")
 
 
-brew tap tap caskroom/fonts
+brew tap caskroom/fonts
 brew cask install $(cat ./Fontfile |grep -v "#")
 
 brew cleanup
